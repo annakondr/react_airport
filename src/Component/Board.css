@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  background: #e7efec;
+}
+
+#root {
+  width: 90%;
+}
+
+.display {
+  width: 100%;
+  position: relative;
+}
+
+.display > button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  outline: none;
+  position: relative;
+}
+
+.display .arr {
+  text-align: center;
+  width: 50%;
+  margin-left: -15%;
+}
+
+.display .dep {
+  text-align: right;
+  width: 65%;
+  padding-right: 20%;
+}
+
+.display .active {
+  color: #73d2f0;
+  background: white;
+  z-index: 2;
+}
+
+.display .inactive {
+  color: white;
+  background: #1eb7ee;
+}
+
+.dayToDisplay {
+  width: 100%;
+  background: white;
+}
+
+.dayToDisplay > button {
+  background: white;
+  border: none;
+  border-bottom: 3px solid #b8b9b9;
+  color: #b8b9b9;
+  width: 100px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.dayToDisplay .active {
+  border-bottom: 3px solid #1eb7ee;
+  color: #1eb7ee;
+}
